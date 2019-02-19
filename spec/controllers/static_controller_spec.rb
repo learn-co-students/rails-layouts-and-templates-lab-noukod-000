@@ -1,8 +1,8 @@
 require 'rails_helper'
 
-RSpec.describe StaticController, type: :controller do
-  include Capybara::DSL
-  render_views
+# RSpec.describe StaticController, type: :controller do
+  # include Capybara::DSL
+  # render_views
 
   describe "GET home" do
     it "renders the home template with the default layout" do
@@ -14,4 +14,3 @@ RSpec.describe StaticController, type: :controller do
       expect(page.find("h2").text).to eq("Welcome to Flatiron Widgets")
     end
   end
-end

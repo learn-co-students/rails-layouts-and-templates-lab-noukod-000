@@ -1,4 +1,4 @@
 class StoreAdminController < ActionController::Base
-def layout
-end
+  def home
+  end
 end
